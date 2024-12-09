@@ -10,6 +10,9 @@ module.exports = {
     container: {
       center: true,
     },
+    fontSize: {
+      paragraph: "20px",
+    },
     extend: {
       fontFamily: {
         sspro: ["var(--font-sspro)", ...fontFamily.sans], // Add your local font here
