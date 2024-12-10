@@ -22,6 +22,7 @@ module.exports = {
         // foreground: "var(--foreground)",
         black: "#272730",
         primary: "#454CED",
+        textColor: "#787a80",
       },
     },
   },
