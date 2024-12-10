@@ -15,6 +15,11 @@ const myLocalFont = localFont({
       weight: "800",
       style: "normal",
     },
+    {
+      path: "../public/fonts/SourceSansPro-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
   ],
   variable: "--font-sspro", // Define a CSS variable for the local font
 });

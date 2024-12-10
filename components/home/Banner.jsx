@@ -6,13 +6,13 @@ import { MdStar } from "react-icons/md";
 
 
 // import banner from '../../public/home/banner.jpeg'
-import banner from '../../public/home/image 7.png'
+import banner from '../../public/home/banner.png'
 import customer from '../../public/home/customer.png'
 
 
 const Banner = () => {
     return (
-        <div className='h-[90vh] flex items-center'>
+        <div className='h-[93vh] flex items-center container relative'>
             <div className='flex gap-4 md:gap-[10%] w-full items-center'>
                 <div className='space-y-6 w-2/5'>
                     <Button varient="lite" link="/review" text="Starting from €4.50/day" />
@@ -45,6 +45,7 @@ const Banner = () => {
                     <Image src={banner} alt='banner image' />
                 </div>
             </div>
+            <div className='-z-10 w-[900px] h-[900px] bg-[#DAF600] absolute -bottom-52 -right-96 rounded-full'></div>
         </div>
     )
 }
