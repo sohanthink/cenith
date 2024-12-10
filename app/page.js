@@ -1,15 +1,17 @@
-import Button from "@/components/common/Button";
+import React from "react";
+
 import Banner from "@/components/home/Banner";
 import Mission from "@/components/home/Mission";
-import React from "react";
+import Benefits from "@/components/home/Benefits";
+import Works from "@/components/home/Works";
 
 const Home = () => {
   return (
-    <div className="">
-      <div className="">
-        <Banner />
-        <Mission />
-      </div>
+    <div>
+      <Banner />
+      <Mission />
+      <Benefits />
+      <Works />
     </div>
   );
 };

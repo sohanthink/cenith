@@ -12,6 +12,7 @@ module.exports = {
     },
     fontSize: {
       paragraph: "20px",
+      h3: "32px",
     },
     extend: {
       fontFamily: {
