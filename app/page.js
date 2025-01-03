@@ -4,6 +4,7 @@ import Banner from "@/components/home/Banner";
 import Mission from "@/components/home/Mission";
 import Benefits from "@/components/home/Benefits";
 import Works from "@/components/home/Works";
+import Slider from "@/components/home/Slider";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Mission />
       <Benefits />
       <Works />
+      <Slider />
     </div>
   );
 };
